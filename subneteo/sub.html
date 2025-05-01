@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guía de Subneteado</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #02163a, #0d357a);
+      color: white;
+    }
+    header {
+      background-color: #0f1b40;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #12244e;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: justify;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .content-box {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Efecto al pasar el mouse en los contenedores */
+    .content-box:hover {
+      transform: scale(1.05);
+      background-color: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    }
+
+    /* Estilo para imágenes redondeadas con efecto de giro */
+    img {
+      border-radius: 50%;
+      width: 300px; /* Puedes ajustar el tamaño según necesites */
+      height: 300px; /* Mantener proporciones */
+      transition: transform 0.5s ease; /* Efecto de transición suave */
+      display: block;
+      margin: auto; /* Centra las imágenes */
+    }
+
+    img:hover {
+      transform: rotate(360deg); /* Giro completo */
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0f1b40;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+
+
+
+  <header>
+    <h1>Guía Visual del Subneteado</h1>
+  </header>
+
+  <nav>
+    <a href="#que-es">¿Qué es?</a>
+    <a href="#para-que">¿Para qué sirve?</a>
+    <a href="#ejemplo">Ejemplo</a>
+    <a href="#beneficios">Beneficios</a>
+  </nav>
+
+
+
+
+        <CENTER>
+            <h2>HOLAAA</h2>
+        <img src="imgxx/tum.jpg" alt="Ejemplo visual de subredes" />
+        </CENTER>
+
+  <section id="que-es">
+    <div class="content-box">
+      <h2>¿Qué es el Subneteado?</h2>
+      <p>
+        El subneteado es una técnica utilizada en redes para dividir una red principal en subredes más pequeñas. Permite una mejor organización, seguridad y uso eficiente de direcciones IP.
+      </p>
+      <img src="imgxx/xx.jpg" alt="Ejemplo visual de subredes" />
+    </div>
+  </section>
+
+  <section id="para-que">
+    <div class="content-box">
+      <h2>¿Para qué sirve?</h2>
+      <p>
+        El subneteo se utiliza para dividir una red grande en varias redes más pequeñas, lo cual mejora el rendimiento al reducir el tráfico, aumenta la seguridad al aislar segmentos, y facilita el mantenimiento.
+      </p>
+      <img src="imgxx/xxx.jpg" alt="Ejemplo seguridad en redes" />
+    </div>
+  </section>
+
+  <section id="ejemplo">
+    <div class="content-box">
+      <h2>Ejemplo de Subneteado</h2>
+      <p>
+        Supongamos que tienes una red con la dirección 192.168.1.0/24. Puedes dividirla en 4 subredes usando una máscara /26. Esto te dará cuatro bloques con 64 direcciones IP cada uno.
+      </p>
+      <img src="imgxx/ejem.jpg" alt="Ejemplo paso a paso de subneteo" />
+    </div>
+  </section>
+
+    <SEction id="beneficios"></SEction>
+   <div class="content-box">
+      <h2>beneficios del subneteo</h2>
+      <p>
+        El subneteo es una técnica clave en redes informáticas que aporta diversos beneficios, especialmente en la administración y eficiencia de una red. Algunos de los principales beneficios incluyen:
+        - Optimización del uso de direcciones IP: Divide grandes redes en subredes más pequeñas, evitando el desperdicio de direcciones IP y maximizando su uso.
+        - Mayor seguridad: Limita el acceso entre subredes, lo que ayuda a proteger los datos y recursos dentro de cada segmento.
+        - Reducción del tráfico: Minimiza el tráfico entre subredes, mejorando el rendimiento general de la red y disminuyendo la congestión.
+        - Administración más sencilla: Facilita la identificación y resolución de problemas dentro de una subred específica, haciendo que la administración sea más manejable.
+        - Escalabilidad: Permite a las redes crecer de manera organizada, sin comprometer la eficiencia ni la estructura.
+    </p>
+      <img src="imgxx/xxxxbene.jpg" alt="Ejemplo paso a paso de subneteo" />
+    </div>
+  </section>
+</body>
+</html>
